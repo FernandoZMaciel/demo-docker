@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copiar o arquivo JAR da aplicação para dentro do container
-COPY target/minha-aplicacao.jar app.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 
 # Expôr a porta 8080 (padrão do Spring Boot)
 EXPOSE 8080
